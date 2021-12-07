@@ -1,0 +1,7 @@
+D:\Documents\Projects\advent-of-code\bin\Debug\advent-of-code.exe.config
+D:\Documents\Projects\advent-of-code\bin\Debug\advent-of-code.exe
+D:\Documents\Projects\advent-of-code\bin\Debug\advent-of-code.pdb
+D:\Documents\Projects\advent-of-code\obj\Debug\advent-of-code.csproj.AssemblyReference.cache
+D:\Documents\Projects\advent-of-code\obj\Debug\advent-of-code.csproj.CoreCompileInputs.cache
+D:\Documents\Projects\advent-of-code\obj\Debug\advent-of-code.exe
+D:\Documents\Projects\advent-of-code\obj\Debug\advent-of-code.pdb
