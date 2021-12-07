@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using advent_of_code.day01;
+using advent_of_code.day02;
 
 namespace advent_of_code
 {
@@ -11,10 +12,25 @@ namespace advent_of_code
     {
         static void Main(string[] args)
         {
-            AdventOfCodeDay01 day01 = new AdventOfCodeDay01();
-            int count = day01.CountIncreases();
-            System.Console.WriteLine(count);
-            System.Console.Read();
+            RunDay02();
+        }
+
+        static void RunDay01()
+        {
+            Day01 day01 = new Day01();
+            int output = day01.CountSumIncreases();
+
+            System.Console.WriteLine(output);
+            System.Console.ReadLine();
+        }
+
+        static void RunDay02()
+        {
+            Day02 day02 = new Day02();
+            int output = day02.FinalDestination();
+
+            System.Console.WriteLine(output);
+            System.Console.ReadLine();
         }
     }
 }
