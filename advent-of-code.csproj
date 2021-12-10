@@ -43,10 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="day01\AdventOfCodeDay01.cs" />
-    <Compile Include="day02\day02.cs" />
+    <Compile Include="day01\Day01.cs" />
+    <Compile Include="day02\Day02.cs" />
+    <Compile Include="day03\Day03.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -54,6 +56,7 @@
   <ItemGroup>
     <Content Include="day01\input.txt" />
     <Content Include="day02\input.txt" />
+    <Content Include="day03\input.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
