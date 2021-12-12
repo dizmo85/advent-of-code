@@ -8,7 +8,7 @@ namespace advent_of_code
     {
         static public string[] ReadFileToArray(int day)
         {
-            string filePath = String.Format(@"C:\Users\PaulStephens\projects\advent-of-code\day{0:D2}\input.txt", day);
+            string filePath = String.Format(@"..\..\day{0:D2}\input.txt", day);
             return File.ReadAllLines(filePath);
         }
     }

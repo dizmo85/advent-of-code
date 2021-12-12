@@ -38,8 +38,10 @@ namespace advent_of_code
         {
             day03.Day03 day03 = new day03.Day03();
             int output = day03.BinaryDiagnostic();
+            int rating = day03.LifeSupportRating();
 
             System.Console.WriteLine(output);
+            System.Console.WriteLine(rating);
             System.Console.ReadLine();
         }
     }
