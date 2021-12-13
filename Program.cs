@@ -13,7 +13,7 @@ namespace advent_of_code
     {
         static void Main(string[] args)
         {
-            RunDay03();
+            RunDay04();
         }
 
         static void RunDay01()
@@ -42,6 +42,17 @@ namespace advent_of_code
 
             System.Console.WriteLine(output);
             System.Console.WriteLine(rating);
+            System.Console.ReadLine();
+        }
+
+        static void RunDay04()
+        {
+            day04.Day04 day04 = new day04.Day04();
+            int score = day04.SquidBingo();
+            int lastScore = day04.LastToWin();
+
+            System.Console.WriteLine(score);
+            System.Console.WriteLine(lastScore);
             System.Console.ReadLine();
         }
     }
