@@ -13,7 +13,7 @@ namespace advent_of_code
     {
         static void Main(string[] args)
         {
-            RunDay04();
+            RunDay05();
         }
 
         static void RunDay01()
@@ -53,6 +53,15 @@ namespace advent_of_code
 
             System.Console.WriteLine(score);
             System.Console.WriteLine(lastScore);
+            System.Console.ReadLine();
+        }
+
+        static void RunDay05()
+        {
+            day05.Day05 day05 = new day05.Day05();
+            int overlapCount = day05.HydrothermalVenture();
+
+            System.Console.WriteLine(overlapCount);
             System.Console.ReadLine();
         }
     }
